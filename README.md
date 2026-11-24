@@ -25,14 +25,14 @@ It hears both sides of the meeting, reads what the other side really means, and 
 - **Paced for reading aloud.** Short sentences, one per row. The line follows my voice word by word, and a new suggestion never yanks away the sentence I'm in the middle of.
 - **Adapts when I go off script.** It judges by meaning, so a paraphrase counts as said and the next line continues from what I actually said.
 - **Hands off.** During the meeting I only touch the large buttons in the corner. The layout is resizable before the call, the text refits to whatever space it gets, and the sides flip when the camera is on the other side.
-- **Translation on demand.** The other side's lines can be glossed into Hebrew in a small strip; my own lines are never translated.
+- **Translation on demand.** The other side's lines can be glossed into my language in a small strip; my own lines are never translated.
 - **Prepared words win.** If my prep contains an exact answer for a situation, it appears verbatim.
 
 ## Before and after
 
 <img src="assets/gallery.png" alt="Meetings as tiles, the prep screen, and the automatic debrief." width="100%">
 
-The debrief holds the key points, decisions, action items by owner and date, open questions, each participant's stance, honest feedback on how I came across, and a follow-up message ready to send. The full transcript and the recording sit next to it, playable in the page.
+The debrief holds the key points, decisions, action items by owner and date, open questions, each participant's stance, honest feedback on how I came across, and a follow-up message ready to send. The full transcript sits next to it.
 
 ## At a glance
 
@@ -40,7 +40,7 @@ The debrief holds the key points, decisions, action items by owner and date, ope
 | --- | --- |
 | **Stack** | Node.js with no dependencies · a single-page web app (PWA) · Docker |
 | **AI** | Claude Haiku for the live line and the read · Claude Sonnet for the debrief · structured JSON output |
-| **Speech** | In-browser speech recognition (English and Hebrew) · MediaRecorder for the recording |
+| **Speech** | In-browser speech recognition, multilingual |
 | **Device** | Android tablet next to the webcam: wake lock, full screen, installable |
 | **Hosting** | Self-hosted, private network, password login |
 | **Status** | Working · voice-based speaker identification is next |
